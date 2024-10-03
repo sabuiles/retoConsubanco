@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/cotizador.feature",
-        glue = "com.consubanco.stepdefinitions",
+        glue = "mobile_test_consubanco.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class CotizarRunner {
